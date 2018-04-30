@@ -1,0 +1,4 @@
+target "perfomtik" do
+
+    pod 'Google/SignIn'
+end'

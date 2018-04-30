@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89612BF9200C54FF00FFAFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89612BF8200C54FF00FFAFDD /* AppDelegate.swift */; };
+		89612BFB200C54FF00FFAFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89612BFA200C54FF00FFAFDD /* ViewController.swift */; };
+		89612BFE200C54FF00FFAFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89612BFC200C54FF00FFAFDD /* Main.storyboard */; };
+		89612C00200C54FF00FFAFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89612BFF200C54FF00FFAFDD /* Assets.xcassets */; };
+		89612C03200C54FF00FFAFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89612C01200C54FF00FFAFDD /* LaunchScreen.storyboard */; };
+		89612C0E200C54FF00FFAFDD /* perfomtikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89612C0D200C54FF00FFAFDD /* perfomtikTests.swift */; };
+		89612C19200C54FF00FFAFDD /* perfomtikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89612C18200C54FF00FFAFDD /* perfomtikUITests.swift */; };
+		8965E09F200C5835009B736E /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965E09E200C5835009B736E /* ArticleCell.swift */; };
+		8965E0A1200C587F009B736E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965E0A0200C587F009B736E /* Article.swift */; };
+		8965E0DF200C5DA2009B736E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8965E0DE200C5DA2009B736E /* Podfile */; };
+		8965E0E1200C6921009B736E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8965E0E0200C6921009B736E /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89612C0A200C54FF00FFAFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89612BED200C54FF00FFAFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89612BF4200C54FF00FFAFDD;
+			remoteInfo = perfomtik;
+		};
+		89612C15200C54FF00FFAFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89612BED200C54FF00FFAFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89612BF4200C54FF00FFAFDD;
+			remoteInfo = perfomtik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89612BF5200C54FF00FFAFDD /* perfomtik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = perfomtik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89612BF8200C54FF00FFAFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89612BFA200C54FF00FFAFDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89612BFD200C54FF00FFAFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89612BFF200C54FF00FFAFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89612C02200C54FF00FFAFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89612C04200C54FF00FFAFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89612C09200C54FF00FFAFDD /* perfomtikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perfomtikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89612C0D200C54FF00FFAFDD /* perfomtikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfomtikTests.swift; sourceTree = "<group>"; };
+		89612C0F200C54FF00FFAFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89612C14200C54FF00FFAFDD /* perfomtikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perfomtikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89612C18200C54FF00FFAFDD /* perfomtikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfomtikUITests.swift; sourceTree = "<group>"; };
+		89612C1A200C54FF00FFAFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8965E09E200C5835009B736E /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		8965E0A0200C587F009B736E /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		8965E0DE200C5DA2009B736E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8965E0E0200C6921009B736E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89612BF2200C54FF00FFAFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89612C06200C54FF00FFAFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89612C11200C54FF00FFAFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89612BEC200C54FF00FFAFDD = {
+			isa = PBXGroup;
+			children = (
+				8965E0DE200C5DA2009B736E /* Podfile */,
+				89612BF7200C54FF00FFAFDD /* perfomtik */,
+				89612C0C200C54FF00FFAFDD /* perfomtikTests */,
+				89612C17200C54FF00FFAFDD /* perfomtikUITests */,
+				89612BF6200C54FF00FFAFDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89612BF6200C54FF00FFAFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89612BF5200C54FF00FFAFDD /* perfomtik.app */,
+				89612C09200C54FF00FFAFDD /* perfomtikTests.xctest */,
+				89612C14200C54FF00FFAFDD /* perfomtikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89612BF7200C54FF00FFAFDD /* perfomtik */ = {
+			isa = PBXGroup;
+			children = (
+				89612BF8200C54FF00FFAFDD /* AppDelegate.swift */,
+				89612BFA200C54FF00FFAFDD /* ViewController.swift */,
+				8965E0E0200C6921009B736E /* SecondViewController.swift */,
+				89612BFC200C54FF00FFAFDD /* Main.storyboard */,
+				89612BFF200C54FF00FFAFDD /* Assets.xcassets */,
+				89612C01200C54FF00FFAFDD /* LaunchScreen.storyboard */,
+				89612C04200C54FF00FFAFDD /* Info.plist */,
+				8965E09E200C5835009B736E /* ArticleCell.swift */,
+				8965E0A0200C587F009B736E /* Article.swift */,
+			);
+			path = perfomtik;
+			sourceTree = "<group>";
+		};
+		89612C0C200C54FF00FFAFDD /* perfomtikTests */ = {
+			isa = PBXGroup;
+			children = (
+				89612C0D200C54FF00FFAFDD /* perfomtikTests.swift */,
+				89612C0F200C54FF00FFAFDD /* Info.plist */,
+			);
+			path = perfomtikTests;
+			sourceTree = "<group>";
+		};
+		89612C17200C54FF00FFAFDD /* perfomtikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89612C18200C54FF00FFAFDD /* perfomtikUITests.swift */,
+				89612C1A200C54FF00FFAFDD /* Info.plist */,
+			);
+			path = perfomtikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89612BF4200C54FF00FFAFDD /* perfomtik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89612C1D200C54FF00FFAFDD /* Build configuration list for PBXNativeTarget "perfomtik" */;
+			buildPhases = (
+				89612BF1200C54FF00FFAFDD /* Sources */,
+				89612BF2200C54FF00FFAFDD /* Frameworks */,
+				89612BF3200C54FF00FFAFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = perfomtik;
+			productName = perfomtik;
+			productReference = 89612BF5200C54FF00FFAFDD /* perfomtik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89612C08200C54FF00FFAFDD /* perfomtikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89612C20200C54FF00FFAFDD /* Build configuration list for PBXNativeTarget "perfomtikTests" */;
+			buildPhases = (
+				89612C05200C54FF00FFAFDD /* Sources */,
+				89612C06200C54FF00FFAFDD /* Frameworks */,
+				89612C07200C54FF00FFAFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89612C0B200C54FF00FFAFDD /* PBXTargetDependency */,
+			);
+			name = perfomtikTests;
+			productName = perfomtikTests;
+			productReference = 89612C09200C54FF00FFAFDD /* perfomtikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89612C13200C54FF00FFAFDD /* perfomtikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89612C23200C54FF00FFAFDD /* Build configuration list for PBXNativeTarget "perfomtikUITests" */;
+			buildPhases = (
+				89612C10200C54FF00FFAFDD /* Sources */,
+				89612C11200C54FF00FFAFDD /* Frameworks */,
+				89612C12200C54FF00FFAFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89612C16200C54FF00FFAFDD /* PBXTargetDependency */,
+			);
+			name = perfomtikUITests;
+			productName = perfomtikUITests;
+			productReference = 89612C14200C54FF00FFAFDD /* perfomtikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89612BED200C54FF00FFAFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					89612BF4200C54FF00FFAFDD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					89612C08200C54FF00FFAFDD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89612BF4200C54FF00FFAFDD;
+					};
+					89612C13200C54FF00FFAFDD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89612BF4200C54FF00FFAFDD;
+					};
+				};
+			};
+			buildConfigurationList = 89612BF0200C54FF00FFAFDD /* Build configuration list for PBXProject "perfomtik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89612BEC200C54FF00FFAFDD;
+			productRefGroup = 89612BF6200C54FF00FFAFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89612BF4200C54FF00FFAFDD /* perfomtik */,
+				89612C08200C54FF00FFAFDD /* perfomtikTests */,
+				89612C13200C54FF00FFAFDD /* perfomtikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89612BF3200C54FF00FFAFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89612C03200C54FF00FFAFDD /* LaunchScreen.storyboard in Resources */,
+				89612C00200C54FF00FFAFDD /* Assets.xcassets in Resources */,
+				8965E0DF200C5DA2009B736E /* Podfile in Resources */,
+				89612BFE200C54FF00FFAFDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89612C07200C54FF00FFAFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89612C12200C54FF00FFAFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89612BF1200C54FF00FFAFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8965E0A1200C587F009B736E /* Article.swift in Sources */,
+				89612BFB200C54FF00FFAFDD /* ViewController.swift in Sources */,
+				89612BF9200C54FF00FFAFDD /* AppDelegate.swift in Sources */,
+				8965E0E1200C6921009B736E /* SecondViewController.swift in Sources */,
+				8965E09F200C5835009B736E /* ArticleCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89612C05200C54FF00FFAFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89612C0E200C54FF00FFAFDD /* perfomtikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89612C10200C54FF00FFAFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89612C19200C54FF00FFAFDD /* perfomtikUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89612C0B200C54FF00FFAFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89612BF4200C54FF00FFAFDD /* perfomtik */;
+			targetProxy = 89612C0A200C54FF00FFAFDD /* PBXContainerItemProxy */;
+		};
+		89612C16200C54FF00FFAFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89612BF4200C54FF00FFAFDD /* perfomtik */;
+			targetProxy = 89612C15200C54FF00FFAFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89612BFC200C54FF00FFAFDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89612BFD200C54FF00FFAFDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89612C01200C54FF00FFAFDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89612C02200C54FF00FFAFDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89612C1B200C54FF00FFAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89612C1C200C54FF00FFAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89612C1E200C54FF00FFAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = perfomtik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.perfomtik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89612C1F200C54FF00FFAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = perfomtik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.perfomtik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		89612C21200C54FF00FFAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = perfomtikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.perfomtikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/perfomtik.app/perfomtik";
+			};
+			name = Debug;
+		};
+		89612C22200C54FF00FFAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = perfomtikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.perfomtikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/perfomtik.app/perfomtik";
+			};
+			name = Release;
+		};
+		89612C24200C54FF00FFAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = perfomtikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.perfomtikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = perfomtik;
+			};
+			name = Debug;
+		};
+		89612C25200C54FF00FFAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = perfomtikUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.perfomtikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = perfomtik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89612BF0200C54FF00FFAFDD /* Build configuration list for PBXProject "perfomtik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89612C1B200C54FF00FFAFDD /* Debug */,
+				89612C1C200C54FF00FFAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89612C1D200C54FF00FFAFDD /* Build configuration list for PBXNativeTarget "perfomtik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89612C1E200C54FF00FFAFDD /* Debug */,
+				89612C1F200C54FF00FFAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89612C20200C54FF00FFAFDD /* Build configuration list for PBXNativeTarget "perfomtikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89612C21200C54FF00FFAFDD /* Debug */,
+				89612C22200C54FF00FFAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89612C23200C54FF00FFAFDD /* Build configuration list for PBXNativeTarget "perfomtikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89612C24200C54FF00FFAFDD /* Debug */,
+				89612C25200C54FF00FFAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89612BED200C54FF00FFAFDD /* Project object */;
+}
